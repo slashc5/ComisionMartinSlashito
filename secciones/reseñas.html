@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="titulo1">
+            <h1>Rotten Slashers</h1>
+        </a>
+        <article class="articulo">
+            <div class="trailer1">
+                <a href="../secciones/trailers.html">Trailers</a>
+            </div>
+            <div class="top10">
+                <a href="../secciones/top10.html">Top 3</a>
+            </div>
+            <div class="noticias">
+                <a href="../secciones/noticias.html">Noticias</a>
+            </div>
+            <div class="reseñas">
+                <a href="../secciones/reseñas.html">Reseñas</a>
+            </div>
+        </article>
+    </header>
+    <main class="main">
+        <form class="formulario contenedor" action="#">
+            <h2 class="formulario__titulo">Recomendaciones
+                de Peliculas.</h2>
+            <div class="formulario__campo">
+                <input class="formulario__input" id="nombre" type="text" placeholder="Escriba su nombre">
+            </div>
+            <!--Label e input-->
+            <div class="formulario__campo">
+                <input class="formulario__input" id="email" type="text" placeholder="Escriba su mail">
+            </div>
+            <!--Label e input-->
+            <div class="formulario__campo">
+                <textarea class="formulario__input" id="observaciones"
+                    placeholder="Que necesita una pelicua segun usted?"></textarea>
+            </div>
+            <!--Label e input-->
+            <div class="formulario__campo">
+                <select class="formulario__select">
+                    <option disabled="" selected="">Actor Favorito</option>
+                    <option>Will Smith</option>
+                    <option>Keannu Reeves</option>
+                    <option>Jim Carrey</option>
+                </select>
+            </div>
+            <p>
+                Elige lo que prefieres:
+            </p>
+            <div>
+                <p>
+                    Subtitulado
+                </p>
+                <input type="radio" name="doblaje" value="Subtitulado">
+                <p>
+                    Doblado
+                </p>
+                <input type="radio" name="doblaje" value="Doblado">
+                <p>
+                    No tengo preferencias
+                </p>
+                <input type="radio" name="doblaje" value="ninguna preferencia">
+            </div>
+            <div class="campo">
+                <div class="formulario__campo">
+                    <p class="formulario__terminos">Estoy de acuerdo con los <a class="formulario__terminos--a"
+                            href="#">Terminos y Condiciones</a></p>
+                    <select class="formulario__select">
+                        <option disabled="" selected="">Elige una opción</option>
+                        <option>No</option>
+                        <option>Si</option>
+                    </select>
+                </div>
+                <div>
+                    <input class="boton" type="submit" value="Enviar">
+                    <input class="boton" type="reset" value="Resetear">
+                </div>
+                <!--Botones-->
+        </form>
+    </main>
+    <footer>
+        <div class="cinefilo">
+            <img src="../image/SIN-FONDO-1.png" alt="">
+            <p>Somos una comunidad de jóvenes unidos por el cine.
+                Apoyamos el séptimo arte como interlocutor de grandes historias
+                y como el mejor espacio para conocer otras ficciones...</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/slashd5/">
+                <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png">
+                <p>Instagram</p>
+            </a>
+            <a href="https://twitter.com/slashf5">
+                <img src="https://img.icons8.com/fluency/48/000000/twitter.png">
+                <p>Twitter</p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCQHdtPKW9OUkHSm7GpXSTvQ">
+                <img src="https://img.icons8.com/color/48/000000/youtube-play.png">
+                <p>Youtube</p>
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    /* Mobile First 480px a 768px*/
+    @media (max-width:720px){
+        .articulo{
+            font-family: 'Indie Flower', cursive;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            background-color:  rgb(63, 60, 60);
+        }
+        header h1{
+            font-size: 3rem;
+            background-color: rgba(65, 59, 59, 0.514);
+        }
+        body img{
+            width: 200px;
+        }
+        body {
+            background-color: rgb(63, 60, 60);
+        }
+        /* links visitados */
+a:link {
+    color:rgb(255, 255, 255)
+}
+/* link ya visitado */
+a:visited {
+    transition: color 0.3s ease;
+    color:rgb(224, 127, 200)
+}
+/* pasar el mouse por arriba */
+a:hover {
+    transition: color 0.3s ease;
+    color:#20caf5
+}
+/* clickear el link o mantener presionado */
+a:active {
+    transition: color 0.3s ease;
+    color:rgb(255, 0, 0);
+}
+body {
+    background-color: rgb(44, 41, 43);
+}
+body p{
+    color: rgb(204, 198, 198);
+    font-size: 1rem;
+    margin: 10px;
+}
+body h2 {
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.notices img{
+    width: 400px;
+    height: 200px;
+}
+body img {
+    margin: 10px;
+}
+.estrenol {
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.estrenot {
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.estrenor {
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.main {
+    margin: 20px;
+}
+.grid {
+    display: flex;
+}
+.grid img{
+    width: 240px;
+}
+.image img {
+    width: 50px;
+    border: outset;
+}
+.image {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+@media only screen and (min-width: 0px) {
+    .grid {
+        display: none;
+    }
+}
+@media only screen and (min-width: 0px) {
+    .ImagenTexto {
+        display: none;
+    }
+}
+footer img {
+    width: 50px;
+}
+.redes{
+    background-color: rgb(34, 37, 34);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media only screen and (min-width: 0px) {
+    .cinefilo {
+    display: none;
+    }
+}
+@media only screen and (min-width: 0px) {
+    .seguinos {
+    display: none;
+    }
+}
+}
+    /* desktop */
+@media (min-width:720px){
+        
+    /* esta seccion vendria a ser los links de la barra header */
+    .articulo{
+        height: 60px;
+        font-family: 'Indie Flower', cursive;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+        font-size: 1.5rem;
+        background-color: rgb(88, 84, 84);
+        padding: 10px;
+    }
+    .image img {
+        width: 80px;
+        border-style: outset;
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        height: 200px;
+    }
+    .NoticiasMenu img {
+        width: 500px;
+        padding: 10px;
+    }
+    .NoticiasMenu {
+        color: white;
+    }
+    .doctor2 img{
+        width: 500px;
+        padding: 10px;
+    }
+    .ParrafoDoctor {
+        padding: 10px;
+        width: 500px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.226);
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .NoticiasMenu h2 {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        font-size: 2.5rem;
+    }
+    .redes{
+        display: flex;
+        justify-content: end;
+    }
+    .texto2 {
+        padding: 10px;
+        width: 500px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.226);
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    /* links visitados */
+    a:link {
+        color:rgb(255, 255, 255)
+    }
+    /* link ya visitado */
+    a:visited {
+        transition: color 0.3s ease;
+        color:rgb(224, 127, 200)
+    }
+    /* pasar el mouse por arriba */
+    a:hover {
+        transition: color 0.3s ease;
+        color:#20caf5
+    }
+    /* clickear el link o mantener presionado */
+    a:active {
+        transition: color 0.3s ease;
+        color:rgb(255, 0, 0);
+    }
+    body {
+        /* background-image: url(./image/fondo2.jpg); */
+        background-color: rgb(44, 41, 43);
+    }
+    .ultimotrailer {
+        color: white;
+    }
+    .parrafotrailer{
+        color: white;
+    }
+    .grid img{
+        width: 650px;
+        height: 350px;
+        padding: 10px;
+        cursor: pointer;
+        box-shadow: 0px 0px 0px black;
+    }
+    .grid {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .ImagenTexto {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+    }
+    .thor { 
+        position: absolute;
+        top: 490px;
+        left: 230px;
+        background-color: rgba(0, 0, 0, 0.616);
+        color: white;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+        cursor: pointer;
+    }
+    .trailer {
+        position: absolute;
+        top: 520px;
+        left: 100px;
+        font-size: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.616);
+        color: white;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+        cursor: pointer;
+    }
+    .resident {
+        position: absolute;
+        top: 480px;
+        left: 920px;
+        font-size: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.616);
+        color: white;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+        cursor: pointer;
+    }
+    .trailer2 {
+        position: absolute;
+        top: 515px;
+        left: 780px;
+        font-size: 1.4rem;
+        background-color: rgba(0, 0, 0, 0.616);
+        color: white;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+        cursor: pointer;
+    }
+    .cinefilo {
+        display: flex;
+        flex-direction: column;
+    }
+    .cinefilo img {
+        width: 200px;
+    }
+    .redes img{
+        width: 50px;
+    }
+    footer {
+        background-color: rgb(90, 87, 87);
+    }
+    .cinefilo p {
+        width: 600px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5rem;
+        padding: 10px;
+    }
+    .redes {
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-evenly;
+        background-color: rgba(0, 0, 0, 0.493);
+    }
+    .seguinos {
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffffcc;
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+    .titulo1 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        height: 100px;
+        font-size: 1.5rem;
+    }
+    .top img{
+        width: 600px;
+        height: 300px;
+        margin: 10px;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top p {
+        width: 1000px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5rem;
+    }
+    .top h2 {
+        font-size: 2rem;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+        margin: 20px;
+    }
+    .TituloTop h2{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        color: white;
+        margin: 30px;
+        text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    }
+    .notices{
+        margin: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .notices img{
+        width: 700px;
+        height: 400px;
+    }
+    .notices {
+        display: flex;
+        flex-direction: column;
+    }
+    .notices .titu{
+        display: flex;
+        justify-content: center;
+    }
+    .notices p {
+        width: 900px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5rem;
+        margin: 10px;
+        color: white;
+    }
+    .notices h2{
+        width: 750px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 10px;
+        color: white;
+    }
+    .Trailer {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Trailer p{
+        width: 900px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5rem;
+        margin: 10px;
+        color: white;
+    }
+    .Trailer h2{
+        font-family: 'Montserrat', sans-serif;
+        margin: 20px;
+        color: white;
+    }
+    .estrenor {
+        border: outset;
+        font-size: 0.5rem;
+        background-color: rgba(0, 0, 0, 0.39);
+    }
+    .estrenol {
+        border: outset;
+        font-size: 0.5rem;
+        background-color: rgba(0, 0, 0, 0.39);
+    }
+    .estrenot {
+        border: outset;
+        font-size: 0.5rem;
+        background-color: rgba(0, 0, 0, 0.39);
+    }
+    .formulario {
+        background-color: rgb(61, 62, 65);
+        border-radius: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: min( 60rem, 100% );
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+    .contenedor {
+        max-width: 120rem;
+        margin: 0 auto;
+    }
+    .main p {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 1rem;
+    }
+    .main h2 {
+        color: white;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
