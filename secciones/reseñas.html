@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -12,85 +14,88 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <a href="../index.html" class="titulo1">
-            <h1>Rotten Slashers</h1>
-        </a>
-        <article class="articulo">
-            <div class="trailer1">
-                <a href="../secciones/trailers.html">Trailers</a>
+    <header class="headercolor">
+        <nav class="navbar navbar-expand-lg navbar-color1 bg-color2 shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Rotten</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="top10.html">Top 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trailers.html">Trailers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reseñas.html">Reseñas</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="top10">
-                <a href="../secciones/top10.html">Top 3</a>
-            </div>
-            <div class="noticias">
-                <a href="../secciones/noticias.html">Noticias</a>
-            </div>
-            <div class="reseñas">
-                <a href="../secciones/reseñas.html">Reseñas</a>
-            </div>
-        </article>
+        </nav>
     </header>
-    <main class="main">
-        <form class="formulario contenedor" action="#">
-            <h2 class="formulario__titulo">Recomendaciones
-                de Peliculas.</h2>
-            <div class="formulario__campo">
-                <input class="formulario__input" id="nombre" type="text" placeholder="Escriba su nombre">
+    <main class="formularioo">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Example@gmail.com">
             </div>
-            <!--Label e input-->
-            <div class="formulario__campo">
-                <input class="formulario__input" id="email" type="text" placeholder="Escriba su mail">
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Nombre Completo</label>
+                <input class="form-control" id="NombreCompleto" placeholder="Nombre Completo">
             </div>
-            <!--Label e input-->
-            <div class="formulario__campo">
-                <textarea class="formulario__input" id="observaciones"
-                    placeholder="Que necesita una pelicua segun usted?"></textarea>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Nacimiento</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="18/03/2001 21 años">
             </div>
-            <!--Label e input-->
-            <div class="formulario__campo">
-                <select class="formulario__select">
-                    <option disabled="" selected="">Actor Favorito</option>
-                    <option>Will Smith</option>
-                    <option>Keannu Reeves</option>
-                    <option>Jim Carrey</option>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Empresa Favorita</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Disney, Marvel, Fox, Warner...">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Region</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Ciudad">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Genero Favorito</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Elige...</option>
+                    <option>Suspenso</option>
+                    <option>Terror</option>
+                    <option>Accion</option>
+                    <option>Romance</option>
+                    <option>Comedia</option>
+                    <option>Thriller</option>
                 </select>
             </div>
-            <p>
-                Elige lo que prefieres:
-            </p>
-            <div>
-                <p>
-                    Subtitulado
-                </p>
-                <input type="radio" name="doblaje" value="Subtitulado">
-                <p>
-                    Doblado
-                </p>
-                <input type="radio" name="doblaje" value="Doblado">
-                <p>
-                    No tengo preferencias
-                </p>
-                <input type="radio" name="doblaje" value="ninguna preferencia">
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Actor Favorito</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="Keannu Reeves">
             </div>
-            <div class="campo">
-                <div class="formulario__campo">
-                    <p class="formulario__terminos">Estoy de acuerdo con los <a class="formulario__terminos--a"
-                            href="#">Terminos y Condiciones</a></p>
-                    <select class="formulario__select">
-                        <option disabled="" selected="">Elige una opción</option>
-                        <option>No</option>
-                        <option>Si</option>
-                    </select>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
                 </div>
-                <div>
-                    <input class="boton" type="submit" value="Enviar">
-                    <input class="boton" type="reset" value="Resetear">
-                </div>
-                <!--Botones-->
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
         </form>
     </main>
     <footer>
@@ -103,19 +108,18 @@
         <div class="redes">
             <a href="https://www.instagram.com/slashd5/">
                 <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png">
-                <p>Instagram</p>
             </a>
             <a href="https://twitter.com/slashf5">
                 <img src="https://img.icons8.com/fluency/48/000000/twitter.png">
-                <p>Twitter</p>
             </a>
             <a href="https://www.youtube.com/channel/UCQHdtPKW9OUkHSm7GpXSTvQ">
                 <img src="https://img.icons8.com/color/48/000000/youtube-play.png">
-                <p>Youtube</p>
             </a>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

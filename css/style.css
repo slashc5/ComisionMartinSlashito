@@ -4,7 +4,7 @@
 }
 
 /* Mobile First 480px a 768px*/
-@media (max-width:720px) {
+@media (max-width:768px) {
     .articulo {
         font-family: 'Indie Flower', cursive;
         font-family: 'Montserrat', sans-serif;
@@ -12,6 +12,18 @@
         justify-content: space-around;
         flex-direction: row;
         background-color: rgb(63, 60, 60);
+    }
+
+    .headercolor {
+        color: rgb(54, 54, 52);
+    }
+
+    .navbar-light {
+        background-color: rgb(54, 54, 52);
+    }
+
+    .bg-color2 {
+        color: rgb(54, 54, 52);
     }
 
     header h1 {
@@ -24,7 +36,7 @@
     }
 
     body {
-        background-color: rgb(63, 60, 60);
+        background-color: rgb(255, 255, 255);
     }
 
     /* links visitados */
@@ -86,9 +98,9 @@
         background-color: rgba(0, 0, 0, 0.342);
     }
 
-    .main {
+    /* .main {
         margin: 20px;
-    }
+    } */
 
     .grid {
         display: flex;
@@ -111,6 +123,12 @@
 
     @media only screen and (min-width: 0px) {
         .grid {
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 0px) {
+        .doctorrr {
             display: none;
         }
     }
@@ -209,15 +227,6 @@
         justify-content: end;
     }
 
-    .texto2 {
-        padding: 10px;
-        width: 500px;
-        color: rgb(255, 255, 255);
-        background-color: rgba(0, 0, 0, 0.226);
-        font-size: 1rem;
-        font-family: 'Montserrat', sans-serif;
-    }
-
     /* links visitados */
     a:link {
         color: rgb(255, 255, 255)
@@ -226,24 +235,24 @@
     /* link ya visitado */
     a:visited {
         transition: color 0.3s ease;
-        color: rgb(224, 127, 200)
+        color: rgb(0, 0, 0)
     }
 
     /* pasar el mouse por arriba */
     a:hover {
         transition: color 0.3s ease;
-        color: #20caf5
+        color: #1e649c
     }
 
     /* clickear el link o mantener presionado */
     a:active {
         transition: color 0.3s ease;
-        color: rgb(255, 0, 0);
+        color: rgb(99, 78, 78);
     }
 
     body {
         /* background-image: url(./image/fondo2.jpg); */
-        background-color: rgb(44, 41, 43);
+        background-color: rgb(43, 41, 41);
     }
 
     .ultimotrailer {
@@ -255,8 +264,8 @@
     }
 
     .grid img {
-        width: 650px;
-        height: 350px;
+        width: 900px;
+        height: 450px;
         padding: 10px;
         cursor: pointer;
         box-shadow: 0px 0px 0px black;
@@ -457,6 +466,13 @@
         color: white;
     }
 
+    .Trailer h3 {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        margin: 20px;
+    }
+
     .estrenor {
         border: outset;
         font-size: 0.5rem;
@@ -492,18 +508,6 @@
         max-width: 120rem;
         margin: 0 auto;
     }
-
-    .main p {
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        font-size: 1rem;
-    }
-
-    .main h2 {
-        color: white;
-        font-size: 2rem;
-        font-family: 'Montserrat', sans-serif;
-    }
 }
 
 .box {
@@ -514,4 +518,125 @@
 
 .box:hover {
     transform: scale(2);
+}
+
+.navbar-color1 {
+    background-color: rgb(54, 54, 52);
+}
+
+.bg-color2 {
+    color: rgb(255, 255, 255);
+}
+
+.headercolor a {
+    color: white;
+}
+
+/* .bodymenu {
+    display: flex;
+} */
+.DoctorImagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.DoctorImagenes img {
+    width: 600px;
+}
+
+.titulostrange {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.TituloAquaman {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.TituloAquaman h2 {
+    font-size: 2rem;
+}
+
+.aquaman2 img {
+    width: 700px;
+    height: 400px;
+}
+
+.aquaman2 {
+    display: flex;
+    justify-content: center;
+}
+
+.AquamanTexto2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 10px;
+}
+
+.formularioo {
+    margin: 100px;
+}
+
+.formularioo {
+    color: white;
+}
+
+.maintexto h2 {
+    font-size: 1rem;
+}
+
+.maintop h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.MainNoticias h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.MainNoticias p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inicio h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.inicio p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+.Trailer h2 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.TopSemanal {
+    background-color: rgb(54, 54, 52);
+}
+
+.MainSemanal {
+    margin: 10px;
+}
+
+.TopSemanal h2 {
+    color: white;
+}
+
+.navbar-color1 .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
