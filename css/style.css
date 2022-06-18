@@ -91,14 +91,17 @@
 
     .estrenol {
         background-color: rgba(0, 0, 0, 0.342);
+        color: white;
     }
 
     .estrenot {
         background-color: rgba(0, 0, 0, 0.342);
+        color: white;
     }
 
     .estrenor {
         background-color: rgba(0, 0, 0, 0.342);
+        color: white;
     }
 
     /* .main {
@@ -294,18 +297,6 @@
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
         cursor: pointer;
     }
-
-    .trailer {
-        position: absolute;
-        top: 520px;
-        left: 100px;
-        font-size: 1.5rem;
-        background-color: rgba(0, 0, 0, 0.616);
-        color: white;
-        text-shadow: 4px 4px 4px rgb(0, 0, 0);
-        cursor: pointer;
-    }
-
     .resident {
         position: absolute;
         top: 480px;
@@ -316,18 +307,6 @@
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
         cursor: pointer;
     }
-
-    .trailer2 {
-        position: absolute;
-        top: 515px;
-        left: 780px;
-        font-size: 1.4rem;
-        background-color: rgba(0, 0, 0, 0.616);
-        color: white;
-        text-shadow: 4px 4px 4px rgb(0, 0, 0);
-        cursor: pointer;
-    }
-
     .cinefilo {
         display: flex;
         flex-direction: column;
@@ -456,7 +435,7 @@
     }
 
     .Trailer p {
-        width: 900px;
+        width: 100%;
         font-family: 'Montserrat', sans-serif;
         line-height: 1.5rem;
         margin: 10px;
