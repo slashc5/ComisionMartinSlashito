@@ -1,0 +1,235 @@
+// version mobile
+@media (max-width:768px) {
+    .redes {
+        background-color: rgb(34, 37, 34);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .estrenol {
+        background-color: rgba(0, 0, 0, 0.342);
+        color: white;
+    }
+
+    .estrenot {
+        background-color: rgba(0, 0, 0, 0.342);
+        color: white;
+    }
+
+    .estrenor {
+        background-color: rgba(0, 0, 0, 0.342);
+        color: white;
+    }
+    .grid img {
+        width: 240px;
+    }
+
+    .image img {
+        width: 50px;
+        border: outset;
+    }
+
+    .image {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .MainSemanal p {
+        color: black;
+    }
+
+    .headercolor {
+        color: rgb(54, 54, 52);
+    }
+
+    .navbar-light {
+        background-color: rgb(54, 54, 52);
+    }
+
+    .bg-color2 {
+        color: rgb(54, 54, 52);
+    }
+
+    header h1 {
+        font-size: 3rem;
+        background-color: rgba(65, 59, 59, 0.514);
+    }
+
+    body img {
+        width: 90%;
+    }
+    .TopSemanal img {
+        width: 95%;
+    }
+    .formularioo {
+        margin: 80px;
+    }
+    label {
+        color: white;
+    }
+
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    body {
+        background-color: rgb(44, 41, 43);
+    }
+
+    body p {
+        color: rgb(204, 198, 198);
+        font-size: 1rem;
+        margin: 10px;
+    }
+
+    body h2 {
+        color: rgb(255, 255, 255);
+        margin: 20px;
+    }
+
+    .notices img {
+        width: 400px;
+        height: 200px;
+    }
+
+    body img {
+        margin: 10px;
+    }
+    footer img {
+        width: 50px;
+    }
+
+    .navbar-color1 .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    }
+}
+// desktop
+@media (min-width:720px) {
+    .MainSemanal p {
+        color: black;
+    }
+
+    .headercolor {
+        color: rgb(54, 54, 52);
+    }
+
+    .navbar-light {
+        background-color: rgb(54, 54, 52);
+    }
+
+    .bg-color2 {
+        color: rgb(54, 54, 52);
+    }
+
+    header h1 {
+        font-size: 3rem;
+        background-color: rgba(65, 59, 59, 0.514);
+    }
+
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    /* links visitados */
+    a:link {
+        color: rgb(255, 255, 255)
+    }
+
+    /* link ya visitado */
+    a:visited {
+        transition: color 0.3s ease;
+        color: rgb(224, 127, 200)
+    }
+
+    /* pasar el mouse por arriba */
+    a:hover {
+        transition: color 0.3s ease;
+        color: #20caf5
+    }
+
+    /* clickear el link o mantener presionado */
+    a:active {
+        transition: color 0.3s ease;
+        color: rgb(255, 0, 0);
+    }
+
+    body {
+        background-color: rgb(44, 41, 43);
+    }
+
+    body p {
+        color: rgb(204, 198, 198);
+        font-size: 1rem;
+        margin: 10px;
+    }
+
+    body h2 {
+        color: rgb(255, 255, 255);
+        margin: 20px;
+    }
+
+    .estrenol {
+        background-color: rgba(0, 0, 0, 0.342);
+        color: white;
+    }
+
+    .estrenot {
+        background-color: rgba(0, 0, 0, 0.342);
+        color: white;
+    }
+
+    .estrenor {
+        background-color: rgba(0, 0, 0, 0.342);
+        color: white;
+    }
+
+    .redes {
+        background-color: rgb(34, 37, 34);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .NoticiasMenu {
+        color: white;
+    }
+
+    .ultimotrailer {
+        color: white;
+    }
+
+    .parrafotrailer {
+        color: white;
+    }
+
+    body {
+        /* background-image: url(./image/fondo2.jpg); */
+        background-color: rgb(43, 41, 41);
+    }
+
+    .navbar-color1 {
+        background-color: rgb(54, 54, 52);
+    }
+
+    .bg-color2 {
+        color: rgb(255, 255, 255);
+    }
+
+    .headercolor a {
+        color: white;
+    }
+
+    .formularioo {
+        color: white;
+    }
+
+    .TopSemanal {
+        background-color: rgb(54, 54, 52);
+    }
+
+    .TopSemanal h2 {
+        color: white;
+    }
+}

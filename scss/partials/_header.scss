@@ -1,0 +1,32 @@
+@media (min-width:720px) {
+    .inicio h2 {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .inicio p {
+        font-family: 'Montserrat', sans-serif;
+        margin: 10px;
+    }
+
+    // carrusel
+    .grid {
+        display: flex;
+    }
+
+    .grid img {
+        width: 240px;
+    }
+    .grid img {
+        width: 900px;
+        height: 450px;
+        padding: 10px;
+        cursor: pointer;
+        box-shadow: 0px 0px 0px black;
+    }
+
+    .grid {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+}
