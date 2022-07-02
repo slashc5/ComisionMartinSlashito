@@ -1,0 +1,27 @@
+@mixin flexible ($direction) {
+    display: flex;
+    flex-direction: $direction;
+    box-shadow: 10px 10px 10px;
+}
+
+@mixin font {
+    font-size: 1rem;
+}
+
+@mixin position ($position) {
+    display: flex;
+    align-items: $position;
+}
+
+@mixin spiderman {
+    border: solid;
+    border-radius: 5%;
+    cursor: pointer;
+
+}
+
+$colores: ("colorPrimario": black,
+    "colorSecundario": red,
+    "coloroTerciario": white,
+    "colorCuarto":rgb(54, 54, 52),
+)

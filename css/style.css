@@ -1,6 +1,8 @@
-* {
-  margin: 0;
-  padding: 0; }
+.imagenes-medidas, .gohan img {
+  width: 600px;
+  height: 300px;
+  border-radius: 10%;
+  border-color: black; }
 
 @media (min-width: 720px) {
   .inicio h2 {
@@ -13,8 +15,8 @@
   .grid img {
     width: 240px; }
   .grid img {
-    width: 900px;
-    height: 450px;
+    width: 1300px;
+    height: 600px;
     padding: 10px;
     cursor: pointer;
     box-shadow: 0px 0px 0px black; }
@@ -95,7 +97,7 @@
   .navbar-light {
     background-color: #363634; }
   .bg-color2 {
-    color: #363634; }
+    background-color: #363634; }
   header h1 {
     font-size: 3rem;
     background-color: rgba(65, 59, 59, 0.514); }
@@ -161,6 +163,9 @@
   .TopSemanal h2 {
     color: white; } }
 
+.dragon h1 {
+  color: white; }
+
 @media (min-width: 720px) {
   body img {
     width: 200px; }
@@ -206,6 +211,27 @@
   .aquaman2 img {
     width: 700px;
     height: 400px; } }
+
+.gohan {
+  display: flex;
+  align-items: center;
+  background-image: url(https://thathashtagshow.com/wp-content/uploads/2022/06/DBSSH-1.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.animales {
+  display: flex;
+  justify-content: space-around; }
+
+.card {
+  display: flex;
+  justify-content: center; }
+  .card--topsito {
+    background-color: #363634;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; }
 
 @media (min-width: 720px) {
   .NoticiasMenu h2 {
@@ -310,6 +336,10 @@
     justify-content: center;
     color: white;
     margin: 10px; } }
+
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+  .media {
+    display: none; } }
 
 @media (max-width: 768px) {
   .articulo {
@@ -445,3 +475,121 @@
   .Trailer iframe {
     width: 100%;
     height: 100%; } }
+
+.dragon {
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  background-image: url(https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/06/goku-vegeta-dragon-ball-super-super-hero.jpg?resize=1280%2C720&quality=80&ssl=1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.dragon2:hover img {
+  transform: scale(1.1);
+  transition-duration: 2s;
+  cursor: pointer; }
+
+.gohan2:hover img {
+  transform: scale(1.1);
+  transition-duration: 2s;
+  cursor: pointer; }
+
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+  .animales {
+    display: none; } }
+
+.spiderman1-fondo {
+  width: 400px;
+  height: 200px;
+  background-image: url("/image/spiderman1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.spiderman2-fondo {
+  width: 400px;
+  height: 200px;
+  background-image: url("/image/spiderman2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.spiderman3-fondo {
+  width: 400px;
+  height: 200px;
+  background-image: url("/image/spiderman3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.btn--twitter {
+  background-color: #ffffff80; }
+
+.btn--instagram {
+  background-color: #ffffff80; }
+
+.btn--discord {
+  background-color: #ffffff80; }
+
+.btn--twitter {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  background-color: #363634;
+  color: rgba(255, 255, 255, 0.726); }
+
+.redess {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif; }
+
+.btn--instagram {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #363634;
+  color: rgba(255, 255, 255, 0.726);
+  width: 130px; }
+
+.btn--discord {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 130px;
+  background-color: #363634;
+  color: rgba(255, 255, 255, 0.726); }
+
+.spiderman1-fondo {
+  border: solid;
+  border-radius: 5%;
+  cursor: pointer; }
+
+.spiderman2-fondo {
+  border: solid;
+  border-radius: 5%;
+  cursor: pointer; }
+
+.spiderman3-fondo {
+  border: solid;
+  border-radius: 5%;
+  cursor: pointer; }
+
+.animales h2 {
+  color: white;
+  text-shadow: 4px 4px 4px black;
+  background-color: rgba(255, 255, 255, 0.356);
+  width: 270px;
+  font-family: 'Montserrat', sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0; }
