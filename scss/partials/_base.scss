@@ -1,0 +1,12 @@
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/base";
+@import "./header";
+@import "./colores"; 
+@import "./imagenes";
+@import "./letras";
+@import "./medidas";
+* {
+    margin: 0;
+    padding: 0;
+}

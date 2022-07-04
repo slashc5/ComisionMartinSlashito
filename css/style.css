@@ -370,6 +370,17 @@
   .ImagenTexto {
     display: none; } }
 
+@media (max-width: 768px) {
+  .Trailer h3 {
+    font-size: 1rem;
+    border-style: solid;
+    border-color: #797575; }
+  .Trailer {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
 @media (min-width: 720px) {
   .articulo {
     height: 60px;
@@ -472,9 +483,8 @@
     justify-content: center; }
   .formularioo {
     margin: 100px; }
-  .Trailer iframe {
-    width: 100%;
-    height: 100%; } }
+  .Trailer img {
+    width: 600px; } }
 
 .dragon {
   display: flex;

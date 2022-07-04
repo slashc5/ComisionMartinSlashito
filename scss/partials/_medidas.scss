@@ -45,6 +45,24 @@
         }
     }
 
+    .Trailer h3 {
+        font-size: 1rem;
+        border-style: solid;
+        border-color: rgb(121, 117, 117);
+    }
+
+    // .Trailer p{
+    //     width: 350px;
+    // }
+    // .estrenor {
+    //     width: 350px;
+    // }
+    .Trailer {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 // desktop
@@ -196,9 +214,8 @@
         margin: 100px;
     }
 
-    .Trailer iframe {
-        width: 100%;
-        height: 100%;
+    .Trailer img {
+        width: 600px
     }
 }
 
