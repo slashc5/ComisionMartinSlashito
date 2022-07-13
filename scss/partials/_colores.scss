@@ -7,21 +7,6 @@
         justify-content: space-around;
     }
 
-    .estrenol {
-        background-color: rgba(0, 0, 0, 0.342);
-        color: white;
-    }
-
-    .estrenot {
-        background-color: rgba(0, 0, 0, 0.342);
-        color: white;
-    }
-
-    .estrenor {
-        background-color: rgba(0, 0, 0, 0.342);
-        color: white;
-    }
-
     .grid img {
         width: 240px;
     }
@@ -58,8 +43,10 @@
         background-color: rgba(65, 59, 59, 0.514);
     }
 
-    body img {
-        width: 90%;
+    @media (min-width:720px) {
+        body img {
+            width: 90%;
+        }
     }
 
     .TopSemanal img {
@@ -83,7 +70,7 @@
     }
 
     body p {
-        color: rgb(204, 198, 198);
+        // color: rgb(204, 198, 198);
         font-size: 1rem;
         margin: 10px;
     }
@@ -91,11 +78,6 @@
     body h2 {
         color: rgb(255, 255, 255);
         margin: 20px;
-    }
-
-    .notices img {
-        width: 400px;
-        height: 200px;
     }
 
     body img {
@@ -166,7 +148,7 @@
     }
 
     body p {
-        color: rgb(204, 198, 198);
+        // color: rgb(204, 198, 198);
         font-size: 1rem;
         margin: 10px;
     }
@@ -177,18 +159,50 @@
     }
 
     .estrenol {
-        background-color: rgba(0, 0, 0, 0.342);
         color: white;
+        border-radius: 200px;
+        cursor: pointer;
     }
 
     .estrenot {
-        background-color: rgba(0, 0, 0, 0.342);
         color: white;
+        border-radius: 200px;
+        cursor: pointer;
     }
 
     .estrenor {
-        background-color: rgba(0, 0, 0, 0.342);
         color: white;
+        cursor: pointer;
+    }
+
+    .estrenor h3 {
+        background-color: rgba(0, 0, 0, 0.123);
+        padding: 10px;
+        border-radius: 100px;
+        background-image: url(/image/re4banner3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(226, 219, 226);
+    }
+
+    .estrenol h3 {
+        background-color: rgba(0, 0, 0, 0.123);
+        padding: 10px;
+        border-radius: 100px;
+        background-image: url(/image/buzzbanner2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(226, 219, 226);
+    }
+
+    .estrenot h3 {
+        background-color: rgba(0, 0, 0, 0.123);
+        padding: 10px;
+        border-radius: 100px;
+        background-image: url(/image/thorbanner.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(226, 219, 226);
     }
 
     .redes {

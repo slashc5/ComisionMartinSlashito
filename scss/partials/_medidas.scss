@@ -51,12 +51,6 @@
         border-color: rgb(121, 117, 117);
     }
 
-    // .Trailer p{
-    //     width: 350px;
-    // }
-    // .estrenor {
-    //     width: 350px;
-    // }
     .Trailer {
         margin: 10px;
         display: flex;
@@ -91,9 +85,6 @@
     }
 
     .thor {
-        position: absolute;
-        top: 490px;
-        left: 230px;
         background-color: rgba(0, 0, 0, 0.616);
         color: white;
         text-shadow: 4px 4px 4px rgb(0, 0, 0);
@@ -159,28 +150,44 @@
     }
 
     .Trailer {
-        margin: 10px;
         display: flex;
-        flex-direction: column;
         align-items: center;
+
     }
 
     .estrenor {
-        border: outset;
         font-size: 0.5rem;
-        background-color: rgba(0, 0, 0, 0.39);
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto3 {
+        font-family: 'Montserrat', sans-serif;
+        @include flexible2;
+        text-align: center;
     }
 
     .estrenol {
-        border: outset;
         font-size: 0.5rem;
-        background-color: rgba(0, 0, 0, 0.39);
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto1 {
+        font-family: 'Montserrat', sans-serif;
+        @include flexible2;
+        text-align: center;
     }
 
     .estrenot {
-        border: outset;
         font-size: 0.5rem;
-        background-color: rgba(0, 0, 0, 0.39);
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto2 {
+        font-family: 'Montserrat', sans-serif;
+        @include flexible2
     }
 
     .contenedor {
@@ -328,4 +335,78 @@ $color in $redes {
     background-color: rgba(255, 255, 255, 0.356);
     width: 270px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: solid 3px #2c98b3;
+    color: whitesmoke;
+}
+
+.formularioo {
+    border-radius: 2rem;
+    padding: 2rem;
+    color: whitesmoke;
+    margin-bottom: 1cm;
+    border: 10px solid #00fcfcc0;
+    font-size: 20px;
+    background: #222;
+}
+
+.formularioo Input:focus {
+    background-color: rgba(7, 236, 252, 0.233);
+}
+
+.form-select {
+    background-color: rgba(0, 238, 255, 0.486);
+}
+
+.topPelis img {
+    width: 700px;
+    height: auto;
+}
+
+.topPelis {
+    background-image: url(/image/netflix3.webp);
+}
+
+.topPelis {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left left;
+    background-position-y: top;
+    padding: 200px;
+}
+
+.marginFigure h2 {
+    color: white;
+    padding: 20px;
+}
+
+.marginFigure p {
+    color: white;
+}
+
+.marginFigure {
+    text-align: center;
+}
+
+.textoTop {
+    background-color: rgba(0, 0, 0, 0.137);
+    padding: 50px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.158);
+    color: white;
+    margin: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.158);
+
 }

@@ -3,11 +3,6 @@
         width: 200px;
     }
 
-    .notices img {
-        width: 400px;
-        height: 200px;
-    }
-
     .image img {
         width: 50px;
         border: outset;
@@ -60,11 +55,6 @@
         margin: 10px;
     }
 
-    .notices img {
-        width: 700px;
-        height: 400px;
-    }
-
     .DoctorImagenes img {
         width: 600px;
     }
@@ -103,3 +93,104 @@
         font-family: 'Montserrat', sans-serif;
     }
 }
+
+.dragon img {
+    width: 400px;
+    height: 200px;
+}
+
+.gohan img {
+    width: 400px;
+    height: 200px;
+}
+
+.dragon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gohan {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width:720px) {
+    .notices img {
+        width: 600px;
+        margin: 10px;
+    }
+}
+
+@media (min-width:720px) {
+    .imagenTheboys img {
+        margin: 10px 10px 10px 10px;
+        width: 900px;
+        height: 400px;
+    }
+}
+
+.theboysNoticias {
+    display: flex;
+}
+
+.imagenTheboys {
+    display: flex
+}
+
+.johnyNoticias {
+    display: flex
+}
+
+.johnny2Noticias {
+    display: flex
+}
+
+.trailerFigurita {
+    @include flexible2;
+}
+
+.trailerFigurita2 {
+    @include flexible2;
+}
+
+.trailerFigurita3 {
+    @include flexible2;
+}
+
+.trailerFigurita4 {
+    @include flexible2;
+}
+
+.trailerFigurita5 {
+    @include flexible2;
+}
+
+.trailersBody {
+    // background-image: url(/image/darthvader.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.trailerImagenes img {
+    @media (min-width:720px) {
+        width: 600px;
+        margin: 10px;
+    }
+}
+
+.trailerImagenes h2 {
+    font-size: 1rem;
+}
+
+.trailerImagenes p {
+    color: white;
+}
+
+// .estrenor h3 {
+//     visibility: hidden;
+// }
+
+// .estrenor:hover h3 {
+//     visibility: visible;
+// }

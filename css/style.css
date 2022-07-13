@@ -31,15 +31,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
-  .estrenol {
-    background-color: rgba(0, 0, 0, 0.342);
-    color: white; }
-  .estrenot {
-    background-color: rgba(0, 0, 0, 0.342);
-    color: white; }
-  .estrenor {
-    background-color: rgba(0, 0, 0, 0.342);
-    color: white; }
   .grid img {
     width: 240px; }
   .image img {
@@ -59,9 +50,13 @@
     color: #363634; }
   header h1 {
     font-size: 3rem;
-    background-color: rgba(65, 59, 59, 0.514); }
+    background-color: rgba(65, 59, 59, 0.514); } }
+
+@media (max-width: 768px) and (min-width: 720px) {
   body img {
-    width: 90%; }
+    width: 90%; } }
+
+@media (max-width: 768px) {
   .TopSemanal img {
     width: 95%; }
   .formularioo {
@@ -73,15 +68,11 @@
   body {
     background-color: #2c292b; }
   body p {
-    color: #ccc6c6;
     font-size: 1rem;
     margin: 10px; }
   body h2 {
     color: white;
     margin: 20px; }
-  .notices img {
-    width: 400px;
-    height: 200px; }
   body img {
     margin: 10px; }
   footer img {
@@ -121,21 +112,46 @@
   body {
     background-color: #2c292b; }
   body p {
-    color: #ccc6c6;
     font-size: 1rem;
     margin: 10px; }
   body h2 {
     color: white;
     margin: 20px; }
   .estrenol {
-    background-color: rgba(0, 0, 0, 0.342);
-    color: white; }
+    color: white;
+    border-radius: 200px;
+    cursor: pointer; }
   .estrenot {
-    background-color: rgba(0, 0, 0, 0.342);
-    color: white; }
+    color: white;
+    border-radius: 200px;
+    cursor: pointer; }
   .estrenor {
-    background-color: rgba(0, 0, 0, 0.342);
-    color: white; }
+    color: white;
+    cursor: pointer; }
+  .estrenor h3 {
+    background-color: rgba(0, 0, 0, 0.123);
+    padding: 10px;
+    border-radius: 100px;
+    background-image: url(/image/re4banner3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e2dbe2; }
+  .estrenol h3 {
+    background-color: rgba(0, 0, 0, 0.123);
+    padding: 10px;
+    border-radius: 100px;
+    background-image: url(/image/buzzbanner2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e2dbe2; }
+  .estrenot h3 {
+    background-color: rgba(0, 0, 0, 0.123);
+    padding: 10px;
+    border-radius: 100px;
+    background-image: url(/image/thorbanner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e2dbe2; }
   .redes {
     background-color: #222522;
     display: flex;
@@ -169,9 +185,6 @@
 @media (min-width: 720px) {
   body img {
     width: 200px; }
-  .notices img {
-    width: 400px;
-    height: 200px; }
   .image img {
     width: 50px;
     border: outset; }
@@ -203,9 +216,6 @@
     width: 600px;
     height: 300px;
     margin: 10px; }
-  .notices img {
-    width: 700px;
-    height: 400px; }
   .DoctorImagenes img {
     width: 600px; }
   .aquaman2 img {
@@ -233,6 +243,147 @@
     align-items: center;
     font-family: 'Montserrat', sans-serif; }
 
+.dragon img {
+  width: 400px;
+  height: 200px; }
+
+.gohan img {
+  width: 400px;
+  height: 200px; }
+
+.dragon {
+  display: flex;
+  justify-content: space-around; }
+
+.gohan {
+  display: flex;
+  justify-content: space-around; }
+
+@media (min-width: 720px) {
+  .notices img {
+    width: 600px;
+    margin: 10px; } }
+
+@media (min-width: 720px) {
+  .imagenTheboys img {
+    margin: 10px 10px 10px 10px;
+    width: 900px;
+    height: 400px; } }
+
+.theboysNoticias {
+  display: flex; }
+
+.imagenTheboys {
+  display: flex; }
+
+.johnyNoticias {
+  display: flex; }
+
+.johnny2Noticias {
+  display: flex; }
+
+.trailerFigurita {
+  display: flex;
+  justify-content: center; }
+
+.trailerFigurita2 {
+  display: flex;
+  justify-content: center; }
+
+.trailerFigurita3 {
+  display: flex;
+  justify-content: center; }
+
+.trailerFigurita4 {
+  display: flex;
+  justify-content: center; }
+
+.trailerFigurita5 {
+  display: flex;
+  justify-content: center; }
+
+.trailersBody {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+@media (min-width: 720px) {
+  .trailerImagenes img {
+    width: 600px;
+    margin: 10px; } }
+
+.trailerImagenes h2 {
+  font-size: 1rem; }
+
+.trailerImagenes p {
+  color: white; }
+
+@media (max-width: 720px) {
+  .texto2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center; } }
+
+@media only screen and (max-width: 720px) and (min-width: 0px) {
+  .ada {
+    display: none; } }
+
+@media only screen and (max-width: 720px) and (min-width: 0px) {
+  .buzz {
+    display: none; } }
+
+@media only screen and (max-width: 720px) and (min-width: 0px) {
+  .thor {
+    display: none; } }
+
+@media (max-width: 720px) {
+  .DoctorImagenes img {
+    width: 400px; }
+  .aquaman2 img {
+    width: 400px; }
+  .DoctorImagenes {
+    display: flex;
+    justify-content: center; }
+  .aquaman2 {
+    display: flex;
+    justify-content: center; }
+  .trailerImagenes h3 {
+    color: white; }
+  .trailerImagenes img {
+    width: 270px; }
+  .AquamanTexto2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 10px; }
+  .notices p {
+    color: white;
+    display: flex; }
+  .notices h2 {
+    color: white;
+    display: flex; }
+  .notices {
+    display: flex;
+    flex-direction: column; }
+  .notices img {
+    width: 300px; }
+  .theboysNoticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .johnyNoticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .johnny2Noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .imagenTheboys {
+    display: flex;
+    justify-content: center; } }
+
 @media (min-width: 720px) {
   .NoticiasMenu h2 {
     display: flex;
@@ -253,10 +404,10 @@
     margin: 30px;
     text-shadow: 4px 4px 4px black; }
   .notices h2 {
-    width: 750px;
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
-    color: white; }
+    color: white;
+    text-align: center; }
   .Trailer h2 {
     font-family: 'Montserrat', sans-serif;
     margin: 20px;
@@ -264,7 +415,7 @@
   .TituloAquaman h2 {
     font-size: 2rem; }
   .MainTexto h2 {
-    font-size: 1rem; }
+    font-size: 2rem; }
   .maintop h2 {
     font-family: 'Roboto', sans-serif; }
   .MainNoticias h2 {
@@ -288,11 +439,11 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5rem; }
   .notices p {
-    width: 900px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5rem;
     margin: 10px;
-    color: white; }
+    color: white;
+    text-align: center; }
   .Trailer p {
     width: 900px;
     font-family: 'Montserrat', sans-serif;
@@ -325,7 +476,8 @@
   .texto2 {
     display: flex;
     justify-content: center;
-    color: white; }
+    color: white;
+    text-align: center; }
   .TituloAquaman {
     display: flex;
     justify-content: center;
@@ -400,9 +552,6 @@
     /* background-image: url(./image/fondo2.jpg); */
     background-color: #2b2929; }
   .thor {
-    position: absolute;
-    top: 490px;
-    left: 230px;
     background-color: rgba(0, 0, 0, 0.616);
     color: white;
     text-shadow: 4px 4px 4px black;
@@ -448,22 +597,34 @@
     display: flex;
     justify-content: center; }
   .Trailer {
-    margin: 10px;
     display: flex;
-    flex-direction: column;
     align-items: center; }
   .estrenor {
-    border: outset;
     font-size: 0.5rem;
-    background-color: rgba(0, 0, 0, 0.39); }
+    display: flex;
+    justify-content: center; }
+  .texto3 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center; }
   .estrenol {
-    border: outset;
     font-size: 0.5rem;
-    background-color: rgba(0, 0, 0, 0.39); }
+    display: flex;
+    justify-content: center; }
+  .texto1 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center; }
   .estrenot {
-    border: outset;
     font-size: 0.5rem;
-    background-color: rgba(0, 0, 0, 0.39); }
+    display: flex;
+    justify-content: center; }
+  .texto2 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center; }
   .contenedor {
     max-width: 120rem;
     margin: 0 auto; }
@@ -599,6 +760,66 @@
   background-color: rgba(255, 255, 255, 0.356);
   width: 270px;
   font-family: 'Montserrat', sans-serif; }
+
+.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: solid 3px #2c98b3;
+  color: whitesmoke; }
+
+.formularioo {
+  border-radius: 2rem;
+  padding: 2rem;
+  color: whitesmoke;
+  margin-bottom: 1cm;
+  border: 10px solid #00fcfcc0;
+  font-size: 20px;
+  background: #222; }
+
+.formularioo Input:focus {
+  background-color: rgba(7, 236, 252, 0.233); }
+
+.form-select {
+  background-color: rgba(0, 238, 255, 0.486); }
+
+.topPelis img {
+  width: 700px;
+  height: auto; }
+
+.topPelis {
+  background-image: url(/image/netflix3.webp); }
+
+.topPelis {
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left left;
+  background-position-y: top;
+  padding: 200px; }
+
+.marginFigure h2 {
+  color: white;
+  padding: 20px; }
+
+.marginFigure p {
+  color: white; }
+
+.marginFigure {
+  text-align: center; }
+
+.textoTop {
+  background-color: rgba(0, 0, 0, 0.137);
+  padding: 50px; }
+
+.card {
+  background-color: rgba(0, 0, 0, 0.158);
+  color: white;
+  margin: 10px; }
+
+.nav-tabs .nav-link.active {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.158); }
 
 * {
   margin: 0;

@@ -1,3 +1,107 @@
+@media (max-width:720px) {
+    .texto2 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 0px) {
+        .ada {
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 0px) {
+        .buzz {
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 0px) {
+        .thor {
+            display: none;
+        }
+    }
+
+    .DoctorImagenes img {
+        width: 400px;
+    }
+
+    .aquaman2 img {
+        width: 400px;
+    }
+
+    .DoctorImagenes {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aquaman2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .trailerImagenes h3 {
+        color: white;
+    }
+
+
+
+    .trailerImagenes img {
+        width: 270px;
+    }
+
+    .AquamanTexto2 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin: 10px;
+    }
+
+    .notices p {
+        color: white;
+        display: flex;
+    }
+
+    .notices h2 {
+        color: white;
+        display: flex;
+    }
+
+    .notices {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .notices img {
+        width: 300px;
+    }
+
+    .theboysNoticias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .johnyNoticias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .johnny2Noticias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagenTheboys {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 @media (min-width:720px) {
     .NoticiasMenu h2 {
         display: flex;
@@ -24,10 +128,10 @@
     }
 
     .notices h2 {
-        width: 750px;
         font-family: 'Montserrat', sans-serif;
         margin: 10px;
         color: white;
+        text-align: center;
     }
 
     .Trailer h2 {
@@ -41,7 +145,7 @@
     }
 
     .MainTexto h2 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .maintop h2 {
@@ -79,11 +183,11 @@
     }
 
     .notices p {
-        width: 900px;
         font-family: 'Montserrat', sans-serif;
         line-height: 1.5rem;
         margin: 10px;
         color: white;
+        text-align: center;
     }
 
     .Trailer p {
@@ -131,6 +235,7 @@
         display: flex;
         justify-content: center;
         color: white;
+        text-align: center;
     }
 
     .TituloAquaman {

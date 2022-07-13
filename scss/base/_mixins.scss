@@ -19,6 +19,10 @@
     cursor: pointer;
 
 }
+@mixin flexible2 {
+    display: flex;
+    justify-content: center;
+}
 
 $colores: ("colorPrimario": black,
     "colorSecundario": red,
